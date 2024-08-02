@@ -74,7 +74,9 @@ body {
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
-
+.logo{
+  font-size: 32px;
+}
 hr {
   box-sizing: content-box;
   height: 0;
@@ -380,7 +382,7 @@ h1, .h1 {
 
 @media (max-width: 1200px) {
   h1, .h1 {
-    font-size: calc(1.375rem + 1.5vw) ;
+    font-size: calc(1.375rem + 1.5vw) !important ;
   }
 }
 
@@ -2384,15 +2386,14 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #09aa90;
-  border-color: #089e86;
+  background-color: #5e6571;
+  border-color: #5e6571;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #09aa90;
-  border-color: #089e86;
-  box-shadow: 0 0 0 0.2rem rgba(48, 213, 187, 0.5);
+  background-color: #5e6571;
+  border-color: #5e6571;
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
@@ -10037,3 +10038,112 @@ h6,
 html {
   scroll-behavior: smooth;
 }
+
+
+.linkedinbtn{
+  background: #0077b0;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin: 0 16px 0 0;
+  width: 50%;
+  text-align: center;
+  text-decoration: none !important;
+}
+.linkedinbtn i{
+  font-size: 35px;
+  color: #fff;
+}
+.linkedinbtn span{
+  color: #fff !important;
+  padding-left: 10px;
+  position: relative;
+  bottom: 6px;
+  font-size: 15px;
+}
+
+
+.whatsappbtn{
+  background: #25d366;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin: 0;
+  width: 50%;
+  text-align: center;
+  text-decoration: none !important;
+}
+.whatsappbtn i{
+  font-size: 35px;
+  color: #fff;
+}
+.whatsappbtn span{
+  color: #fff !important;
+  padding-left: 10px;
+  position: relative;
+  bottom: 6px;
+  font-size: 15px;
+}
+
+
+
+.downloadbtn{
+  background: #b51f1f;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin: 0 0 0 16px;
+  width: 50%;
+  text-align: center;
+  text-decoration: none !important;
+}
+.downloadbtn i{
+  font-size: 35px;
+  color: #fff;
+}
+.downloadbtn span{
+  color: #fff !important;
+  padding-left: 10px;
+  position: relative;
+  bottom: 6px;
+  font-size: 15px;
+}
+
+
+.emailbtn{
+  background: #343a40;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin:16px 0 0 0;
+  width: 50%;
+  text-align: center;
+  text-decoration: none !important;
+}
+.emailbtn i{
+  font-size: 35px;
+  color: #fff;
+}
+.emailbtn span{
+  color: #fff !important;
+  padding-left: 10px;
+  position: relative;
+  bottom: 6px;
+  font-size: 15px;
+}
+
+
+@media (max-width: 600px) {
+  
+.linkedinbtn{width: 100%;margin: 0 0 15px 0;}
+.whatsappbtn{width: 100%;}
+.downloadbtn{width: 100%;margin: 15px 0 0 0;}
+.emailbtn{width: 100%;margin: 15px 0 0 0;}
+.d-flex-m{display:grid !important;}
+
+#about div{
+  text-align: center;
+}
+
+}
+
